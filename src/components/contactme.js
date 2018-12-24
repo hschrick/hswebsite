@@ -3,44 +3,31 @@ import {Textfield} from 'react-mdl';
 class Contact extends Component {
   render(){
     return(
-      //<div><h1>Send me a message!</h1></div>
-      <div className="contactform">
+      <div className="landing-grid">
+      <div className="contact-banner">
+      <div className="App">
+    <center><h1>Contact Me</h1></center>
+    <center><h1>770-363-9450 or...</h1></center>
+    <div>
+    <form action="/action_page.php">
+    <label>First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+    <label>Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
 
-      <Textfield
-      onChange={() => {}}
-      label="Name"
-      floatingLabel
-      style={{width: '200px'}}
-      />
 
-      <Textfield
-      onChange={() => {}}
-      label="Company(optional)"
-      floatingLabel
-      style={{width: '200px'}}
-      />
+    <label>Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" />
 
-      <Textfield
-      onChange={() => {}}
-      label="email"
-      floatingLabel
-      style={{width: '200px'}}
-      />
 
-      <Textfield
-      onChange={() => {}}
-      label="phone number(optional)"
-      floatingLabel
-      style={{width: '200px'}}
-      />
-
-      <Textfield
-      onChange={() => {}}
-      label="write your message here"
-      rows={3}
-      style={{width: '200px'}}
-      />
-      </div>
+    <label>Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <input type="submit" value="Submit" />
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
 
 
 

@@ -28,6 +28,7 @@
 
 .projects-grid {
   display: flex;
+  margin: auto;
 }
 
 .avatar-img {
@@ -89,7 +90,7 @@ margin-left: 350px;
     font-family: Verdana;
     display:inline-block;
     *display: inline;     /* for IE7*/
-    zoom:1.5;              /* for IE7*/
+    zoom:1;              /* for IE7*/
     vertical-align:middle;
     align: center;
 }
@@ -146,4 +147,75 @@ margin-left: 350px;
 }
 .cardButton {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.contact-banner {
+  margin-top: 100px;
+  margin-left: 150px;
+    background-color: black;
+    opacity: .8;
+    width: 80%;
+    height: 80%;
+
+
+    border-radius: 50px;
+}
+ .App {
+     max-width: 420px;
+     margin: 0 auto;
+color: white;
+}
+ p {
+   color: white;
+     text-align: center;
+     font-weight: 500;
+}
+ input[type=text],input[type=email], select, textarea {
+
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color: #45a049;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+}
+
+.contact-split1 {
+
+    float: left;
+    width: 33%;
+    color: white;
+
+}
+.contact-split2 {
+      float: left;
+      width: 33%;
+      color: white;
+
 }

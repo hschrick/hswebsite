@@ -17,33 +17,33 @@ toggleCategories() {
     return(
       <div className="projects-grid">
       <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-    <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>Update</CardTitle>
+    <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
     <CardText>
-      nothing yet
+      nonUi simple BlackJack game.
     </CardText>
     <CardActions border>
-        <Button colored>View Updates</Button>
+        <Button href="https://github.com/hschrick/nonUi-BlackJack" colored>View on github</Button>
     </CardActions>
 </Card>
 
 
 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>Update</CardTitle>
+<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
 <CardText>
-  nothing yet
+  dial up project where a user can make a connection and call/block etc with other users.
 </CardText>
 <CardActions border>
-  <Button colored>View Updates</Button>
+  <Button href="https://github.com/hschrick/Dial-up-Project" colored>View on github</Button>
 </CardActions>
 </Card>
 
 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>Update</CardTitle>
+<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
 <CardText>
-  nothing yet
+  vending machine where users can insert money and make a purchase
 </CardText>
 <CardActions border>
-  <Button colored>View Updates</Button>
+  <Button href="https://github.com/hschrick/Vending-machine" colored>View on github</Button>
 </CardActions>
 </Card>
 
@@ -51,16 +51,19 @@ toggleCategories() {
 
 
 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>Update</CardTitle>
+<CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-structures</CardTitle>
 <CardText>
-  nothing yet
+  simple form application from prog-structures
 </CardText>
 <CardActions border>
-  <Button colored>View Updates</Button>
+  <Button colored>Private, code is blocked</Button>
 </CardActions>
 </Card>
 
 </div>
+
+
+
     )
   } else if (this.state.activeTab === 1) {
     return(
