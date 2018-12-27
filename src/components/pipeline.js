@@ -83,7 +83,7 @@ class Pipeline extends Component {
         </h4>
     </CardTitle>
     <CardActions border style={{borderColor: 'rgba(255, 255, 255, 0.2)', display: 'flex', boxSizing: 'border-box', alignItems: 'center', color: '#fff'}}>
-        <Button className="cardButton" colored style={{color: 'white', align: 'center'}}>Check my Progress</Button>
+        <Button href="https://github.com/hschrick/typing-test" className="cardButton" colored style={{color: 'white', align: 'center'}}>Check my Progress</Button>
         <div className="mdl-layout-spacer"></div>
     </CardActions>
 </Card>
