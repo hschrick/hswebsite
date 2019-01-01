@@ -16,7 +16,7 @@ toggleCategories() {
   if(this.state.activeTab === 0){
     return(
       <div className="projects-grid">
-      <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+      <Card shadow={0} style={{width: '320px', height: '320px'}}>
     <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
     <CardText>
       nonUi simple BlackJack game.
@@ -27,7 +27,7 @@ toggleCategories() {
 </Card>
 
 
-<Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+<Card shadow={0} style={{width: '320px', height: '320px'}}>
 <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
 <CardText>
   dial up project where a user can make a connection and call/block etc with other users.
@@ -37,7 +37,7 @@ toggleCategories() {
 </CardActions>
 </Card>
 
-<Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+<Card shadow={0} style={{width: '320px', height: '320px'}}>
 <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-archictecture</CardTitle>
 <CardText>
   vending machine where users can insert money and make a purchase
@@ -50,7 +50,7 @@ toggleCategories() {
 
 
 
-<Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+<Card shadow={0} style={{width: '320px', height: '320px'}}>
 <CardTitle expand style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>prog-structures</CardTitle>
 <CardText>
   simple form application from prog-structures

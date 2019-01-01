@@ -22,22 +22,22 @@ class Landing extends Component {
 
        <div className="social-links">
 
-       /*Linkedin icon*/
+       {/*Linkedin icon*/}
        <a href="http://linkedin.com" rel="noopener noreferrer" target="_blank">
        <i className="fa fa-linkedin-square" aria-hidden="true" />
        </a>
 
-       /*Github icon*/
+       {/*Github icon*/}
        <a href="https://github.com/hschrick" rel="noopener noreferrer" target="_blank">
        <i className="fa fa-github-square" aria-hidden="true" />
        </a>
 
-       /*Github icon*/
+     {/*Github icon*/}
        <a href="https://github.com/hschrick" rel="noopener noreferrer" target="_blank">
        <i className="fa fa-github-square" aria-hidden="true" />
        </a>
 
-       /*Github icon*/
+     {/*Github icon*/}
        <a href="https://github.com/hschrick" rel="noopener noreferrer" target="_blank">
        <i className="fa fa-github-square" aria-hidden="true" />
        </a>
