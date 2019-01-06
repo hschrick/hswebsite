@@ -8,12 +8,10 @@
 .drawercolor {
   background-color: #2BC0B5;
   height: 100%;
-  color: white;
 }
 
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
-  color: white
-}
+
+
 
 .linkcolor {
   color: white;
@@ -32,18 +30,100 @@
 }
 
 .projects-grid {
-  display: grid;
-  margin: 0;
+
+    display: inline-block;
+    width:100%;
+    float:right;
+    margin:0;
+    min-height: 75vh;
+    white-space:normal;
+    overflow-x: scroll;
+    margin-top:-70px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+  }
 
 
-  height: 100%;
+/*Float four columns side by side*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+/*Remove extra left and right margins,due to padding*/
+.row {margin: 0 -5px;}
 
-  width: 100%;
+/*Clear floats after the columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*bring the title of each card in correct position*/
+.cardtitle{
+  text-align: left;
+  margin-top: 1px;
+}
+
+.cardbutton{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/*Responsive columns*/
+@media screen and (max-width: 600px){
+  .column{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*Style the counter cards*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.cardtext {
+  color: white;
+  background: rgba(20, 15, 80, 0.5);
+}
+
+.backgroundcardtext {
+  background-color: grey;
+  opacity: .5;
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+*{
+  box-sizing: border-box;
+}
 
 
 
+.card-grid {
+  width: 320px;
+  height: 320px;
+  margin: auto;
 
 }
+
 
 .avatar-img {
   height: 250px;
@@ -86,8 +166,6 @@
     width: 100%;
     margin: auto;
     padding: 5px;
-
-
   }
 
   .social-links i {
@@ -148,7 +226,6 @@ margin-left: 350px;
   float: right;
   color: white;
   text-align: center;
-
   /*border-right: 5px dotted white;*/
 }
 .row:after {

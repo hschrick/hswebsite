@@ -20,11 +20,11 @@ class App extends Component {
         </Header>
         <Drawer title="">
             <Navigation className="drawercolor">
-              <Link to="/" className="linkcolor">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/pipeline">Pipeline</Link>
-              <Link to="/contactme">ContactMe</Link>
+              <Link to="/" style={{ color: '#FFF' }}>Home</Link>
+              <Link to="/resume" style={{ color: '#FFF' }}>Resume</Link>
+              <Link to="/projects" style={{ color: '#FFF' }}>Projects</Link>
+              <Link to="/pipeline" style={{ color: '#FFF' }}>Pipeline</Link>
+              <Link to="/contactme" style={{ color: '#FFF' }}>ContactMe</Link>
             </Navigation>
         </Drawer>
         <Content>
