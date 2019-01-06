@@ -193,21 +193,21 @@ margin-left: 350px;
 
 /*pipeline page*/
 .split1 {
+  margin: 5px;
+  height: 120px;
+  width: 33%;
   background-color: black;
   opacity: .8;
-  margin: auto;
   border-radius: 100px;
-  height: 120px;
-  float: left;
-  width: 33%;
   color: white;
   text-align: center;
-  /*border-right: 5px dotted white;*/
+  float: left;
 }
+
 .split2 {
   background-color: black;
   opacity: .8;
-  margin: 5px;
+  margin: auto;
   border-radius: 100px;
   height: 120px;
   float: left;
@@ -228,6 +228,38 @@ margin-left: 350px;
   text-align: center;
   /*border-right: 5px dotted white;*/
 }
+
+/*Responsive columns*/
+@media screen and (max-width: 600px){
+.split1{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.split2{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.split3{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.row:after{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+}
+
+
 .row:after {
   content: "";
   display: table;
