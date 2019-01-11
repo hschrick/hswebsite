@@ -303,7 +303,7 @@ margin-left: 350px;
 }
 
 /*responsive contact*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   /*contact page*/
   .contact-body{
   height: 140vh;
