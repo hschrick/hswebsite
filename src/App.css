@@ -306,7 +306,7 @@ margin-left: 350px;
 @media screen and (max-width: 500px){
   /*contact page*/
   .contact-body{
-    font-size: 38px;
+  
   height: 180vh;
   padding-top: 0px;
   }
