@@ -267,9 +267,9 @@ margin-left: 350px;
   height: 2000px;
 }
 .master-background {
-  background: #3E5151;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #DECBA4, #3E5151);
+  background: #c33764; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #c33764, #1d2671); 
 }
 .cardButton {
   text-align: center;
