@@ -127,7 +127,7 @@ background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  
 }
 
 .banner-text {
@@ -190,7 +190,6 @@ margin-left: 350px;
     align: center;
 }
 
-
 /*pipeline page*/
 .split1 {
   margin: 5px;
@@ -203,7 +202,6 @@ margin-left: 350px;
   text-align: center;
   float: left;
 }
-
 .split2 {
   background-color: black;
   opacity: .8;
@@ -269,7 +267,7 @@ margin-left: 350px;
 .master-background {
   background: #c33764; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #c33764, #1d2671); 
+background: linear-gradient(to left, #c33764, #1d2671);
 }
 .cardButton {
   text-align: center;
