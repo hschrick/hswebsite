@@ -1,7 +1,7 @@
 .header-color {
-  background: #3E5151;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c33764; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 
@@ -17,9 +17,9 @@
   color: white;
 }
 .landing-grid {
-  background: #3E5151;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c33764; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   top: 0;
@@ -193,7 +193,7 @@ margin-left: 350px;
 
 /*pipeline page*/
 .split1 {
-  margin: 5px;  
+  margin: 5px;
   height: 120px;
   width: 33%;
   background-color: black;
@@ -276,72 +276,41 @@ margin-left: 350px;
 }
 
 
-
-
-
-
-
-
-
-.contact-banner {
-  margin-top: 100px;
-  margin-left: 150px;
-    background-color: black;
-    opacity: .8;
-    width: 80%;
-    height: 80%;
-
-
-    border-radius: 50px;
-}
- .App {
-     max-width: 420px;
-     margin: 0 auto;
-color: white;
-}
- p {
-   color: white;
-     text-align: center;
-     font-weight: 500;
-}
- input[type=text],input[type=email], select, textarea {
-
-     width: 100%;
-     padding: 12px;
-     border: 1px solid #ccc;
-     border-radius: 4px;
-     box-sizing: border-box;
-     margin-top: 6px;
-     margin-bottom: 16px;
-     resize: vertical;
-}
- input[type=submit] {
-     background-color: #4CAF50;
-     color: white;
-     padding: 12px 20px;
-     border: none;
-     border-radius: 4px;
-     cursor: pointer;
-}
- input[type=submit]:hover {
-     background-color: #45a049;
-}
- .container {
-     border-radius: 5px;
-     background-color: #f2f2f2;
-     padding: 20px;
+/*contact page*/
+.contact-body{
+  margin: auto;
+  background: #1D2671;
+  width: 100%;
+  height: 140vh;
+  justify-content: center;
+ padding-bottom: 0px;
+ padding-top: 25px;
 }
 
-.contact-split1 {
-
-    float: left;
-    width: 33%;
-    color: white;
+.contact-grid{
+  text-align: center;
+  word-break: break-all;
+  justify-content: center;
+  width: 80%;
+  height: 60%;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  Alpha: .8;
+  margin-bottom: 0px;
 
 }
-.contact-split2 {
-      float: left;
-      width: 33%;
-      color: white;
 
+/*responsive contact*/
+@media screen and (max-width: 600px){
+  /*contact page*/
+  .contact-body{
+  height: 140vh;
+  padding-top: 0px;
+  }
+
+  .contact-grid{
+  height: 140vh;
+  }
 }
