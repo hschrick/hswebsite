@@ -306,11 +306,11 @@ margin-left: 350px;
 @media screen and (max-width: 500px){
   /*contact page*/
   .contact-body{
-  height: 140vh;
+  height: 180vh;
   padding-top: 0px;
   }
 
   .contact-grid{
-  height: 140vh;
+  height: 180vh;
   }
 }
