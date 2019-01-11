@@ -50,6 +50,223 @@ toggleCategories() {
           <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
           </div>
         </div>
+
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 2</h3>
+          <p class="cardtext"> basic text editor</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 3</h3>
+          <p class="cardtext"> text editor extended</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 4</h3>
+          <p class="cardtext"> text editor with encryption</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 5</h3>
+          <p class="cardtext"> final version of text editor, saving, encryption, redo/undo included</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 6</h3>
+          <p class="cardtext"> program that checks for matching paranthesis [()]</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 7</h3>
+          <p class="cardtext"> program that checks for matching paranethesis using a stack to store the data [()]</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 8</h3>
+          <p class="cardtext"> capital gains calculator</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 9</h3>
+          <p class="cardtext">  program that checks for matching paranthesis using linked lists [()]</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 10</h3>
+          <p class="cardtext">capital gains calculator using linked lists</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 11</h3>
+          <p class="cardtext">capital gains calculator using Queue's </p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 12</h3>
+          <p class="cardtext">store prime numbers using linked lists</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 13</h3>
+          <p class="cardtext">  Looks up name,frequency, and rank from database based on users input</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 14</h3>
+          <p class="cardtext"> a more improved name lookup system from last lab</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 15</h3>
+          <p class="cardtext">finds the size of an inputted folder</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 16</h3>
+          <p class="cardtext">name lookup system using binary tree's for efficiency</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 17</h3>
+          <p class="cardtext">name lookup system using binary search tree, extended to add and remove names.</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 18</h3>
+          <p class="cardtext">name lookup using a binary tree now allows saving of program</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 19</h3>
+          <p class="cardtext">name lookup with binary search tree, returns results in sorted order</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 20</h3>
+          <p class="cardtext">a word lookup program using a Trie/digital tree</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 21</h3>
+          <p class="cardtext">a word lookup program using a Trie/digital tree but now with both no child nodes and with one child node</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 22</h3>
+          <p class="cardtext">a word lookup program using a Trie/digital tree with multiple child nodes</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 23</h3>
+          <p class="cardtext">Boggle game built using a Trie/digital tree</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 24</h3>
+          <p class="cardtext">sorting program using leftist trees and minPriorityQueues</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 25</h3>
+          <p class="cardtext">program that reads a file and stores the data using a Huffman Tree</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 19</h3>
+          <p class="cardtext">name lookup with binary search tree, returns results in sorted order</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 19</h3>
+          <p class="cardtext">name lookup with binary search tree, returns results in sorted order</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
+
+        <div class="column">
+        <div class="card" style={{color: '#fff', background: 'url(https://i.imgur.com/q99FVBF.png) bottom right 15% no-repeat #134E5E'}}>
+          <h3 class="cardtitle">prog-structures: Lab 19</h3>
+          <p class="cardtext">name lookup with binary search tree, returns results in sorted order</p>
+          <Button  colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+          </div>
+        </div>
       </div>
 
 
