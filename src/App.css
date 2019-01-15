@@ -6,7 +6,10 @@ background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge
 }
 
 .drawercolor {
-  background-color: #2BC0B5;
+  background: #DC2424;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #1d2671, #c33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #1d2671, #c33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 100%;
 }
 
@@ -49,6 +52,7 @@ background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge
 
 /*Float four columns side by side*/
 .column {
+
   float: left;
   width: 25%;
   padding: 0 10px;
@@ -63,6 +67,7 @@ background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge
   display: table;
   clear: both;
 }
+
 
 /*bring the title of each card in correct position*/
 .cardtitle{
@@ -121,13 +126,11 @@ background: linear-gradient(to left, #c33764, #1d2671); /*  /* W3C, IE 10+/ Edge
   width: 320px;
   height: 320px;
   margin: auto;
-
 }
 
 
 .avatar-img {
   height: 250px;
-  
 }
 
 .banner-text {
@@ -277,7 +280,9 @@ background: linear-gradient(to left, #c33764, #1d2671);
 /*contact page*/
 .contact-body{
   margin: auto;
-  background: #1D2671;
+  background: #c33764; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #c33764, #1d2671);
   width: 100%;
   height: 140vh;
   justify-content: center;
@@ -297,7 +302,6 @@ background: linear-gradient(to left, #c33764, #1d2671);
   margin-bottom: 20px;
   Alpha: .8;
   margin-bottom: 0px;
-
 }
 
 /*responsive contact*/
@@ -307,7 +311,6 @@ background: linear-gradient(to left, #c33764, #1d2671);
    font-size: 32px;
   }
   .contact-body{
-
   height: 180vh;
   padding-top: 0px;
   }
@@ -315,4 +318,13 @@ background: linear-gradient(to left, #c33764, #1d2671);
   .contact-grid{
   height: 180vh;
   }
+}
+
+/*Resume Page*/
+.Resume-right {
+  padding: 2em;
+  font-size: 4px;
+  background: #343d46;
+  opacity: 0.9;
+  color: white;
 }
