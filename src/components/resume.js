@@ -19,7 +19,7 @@ class Resume extends Component {
         <p>I am currently a senior in college at Kansas State University set to graduate in fall of 2019 under computer science in the collge of engineering.</p>
         <hr style={{borderTop: '3px solid #c33764', width: '50%' }}></hr>
         <h5>Address</h5>
-        <p>1401 college Ave A206-A, 66502</p>
+        <p>1401 College Ave A206-A, 66502</p>
         <h5>Phone Number</h5>
         <p>770-363-9450</p>
         <h5>Email</h5>
