@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
+
 class Landing extends Component {
   render(){
     return(
@@ -23,7 +24,7 @@ class Landing extends Component {
        <div className="social-links">
 
        {/*Linkedin icon*/}
-       <a href="https://www.linkedin.com/in/harris-schrick" rel="noopener noreferrer" target="_blank">
+       <a href="https://www.linkedin.com/in/harris-schrick-b2a447179/" rel="noopener noreferrer" target="_blank">
        <i className="fa fa-linkedin-square" aria-hidden="true" />
        </a>
 
@@ -32,17 +33,18 @@ class Landing extends Component {
        <i className="fa fa-github-square" aria-hidden="true" />
        </a>
 
-     {/*Github icon*/}
-       <a href="https://github.com/hschrick" rel="noopener noreferrer" target="_blank">
-       <i className="fa fa-github-square" aria-hidden="true" />
+     {/*youtube icon*/}
+       <a href="https://www.youtube.com/channel/UCEuzmd8T99z3zrJAvm_lyFg?view_as=subscriber" rel="noopener noreferrer" target="_blank" onclick="Warn()">
+       <i className="fa fa-youtube-square" aria-hidden="true" />
        </a>
 
-     {/*Github icon*/}
-       <a href="https://github.com/hschrick" rel="noopener noreferrer" target="_blank">
-       <i className="fa fa-github-square" aria-hidden="true" />
+     {/*slack icon*/}
+       <a href="https://twitter.com/harris_schrick" rel="noopener noreferrer" target="_blank">
+       <i className="fa fa-twitter-square" aria-hidden="true" />
        </a>
-       </div>
-       </div>
+
+    </div>
+    </div>
        </Cell>
        </Grid>
       </div>

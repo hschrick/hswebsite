@@ -581,10 +581,10 @@ intersecting numbers, different numbers, and all numbers</p>
     return(
       <div class="row">
        <div class="column">
-       <div class="card" style={{color: '#fff', background: 'url(https://imgur.com/Hgq7z6f.png) bottom right 15% no-repeat #B22222'}}>
-         <h3 class="cardtitle">cis 308: Lab 1</h3>
-         <p class="cardtext">simple calculator to find the power of a number</p>
-         <Button colored style={{color: '#fff'}} class="cardbutton">Private, code is blocked unless requested</Button>
+       <div class="card" style={{color: '#fff', background: 'url(https://imgur.com/6xssbFm.png) bottom right 15% no-repeat black'}}>
+         <h3 class="cardtitle">This Website</h3>
+         <p class="cardtext">built my portfolio website using react-app</p>
+         <Button href="https://www.harrisschrick.com" colored style={{color: '#fff'}} class="cardbutton">view website</Button>
          </div>
        </div>
       </div>
@@ -600,7 +600,7 @@ intersecting numbers, different numbers, and all numbers</p>
       <Tab>C#</Tab>
       <Tab>JavaScript</Tab>
       <Tab>C/C++</Tab>
-      <Tab>SML</Tab>
+      <Tab>React</Tab>
       </Tabs>
 
 
