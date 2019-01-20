@@ -12,7 +12,7 @@ class Pipeline extends Component {
       <Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
     <CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
         <h4 style={{marginTop: '0'}}>
-        just a placeholder
+        prepare first youtube lecture for c++
         </h4>
     </CardTitle>
     </Card>
@@ -23,55 +23,13 @@ class Pipeline extends Component {
     <Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
   <CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
       <h4 style={{marginTop: '0'}}>
-      just a placeholder
+      continue working on web dev company
       </h4>
   </CardTitle>
   </Card>
   </center>
 
-  {/*Upcoming card 1*/}
-  <center>
-  <Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
-<CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
-    <h4 style={{marginTop: '0'}}>
-    just a placeholder
-    </h4>
-</CardTitle>
-</Card>
-</center>
 
-{/*Upcoming card 1*/}
-<center>
-<Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
-<CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
-  <h4 style={{marginTop: '0'}}>
-  just a placeholder
-  </h4>
-</CardTitle>
-</Card>
-</center>
-
-{/*Upcoming card 1*/}
-<center>
-<Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
-<CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
-  <h4 style={{marginTop: '0'}}>
-  just a placeholder
-  </h4>
-</CardTitle>
-</Card>
-</center>
-
-{/*Upcoming card 1*/}
-<center>
-<Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
-<CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
-  <h4 style={{marginTop: '0'}}>
-  just a placeholder
-  </h4>
-</CardTitle>
-</Card>
-</center>
       </div>
       <div className="split2"><h1>In Progress</h1>
       {/*In Progress card 1*/}
@@ -98,7 +56,7 @@ class Pipeline extends Component {
   </h4>
 </CardTitle>
 <CardActions border style={{borderColor: 'rgba(255, 255, 255, 0.2)', display: 'flex', boxSizing: 'border-box', alignItems: 'center', color: '#fff'}}>
-  
+
   <div className="mdl-layout-spacer"></div>
 </CardActions>
 </Card>
