@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Grid, Cell, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 
 
 class Landing extends Component {
@@ -47,7 +47,16 @@ class Landing extends Component {
     </div>
        </Cell>
        </Grid>
+
+       <Footer size="mini">
+    <FooterSection type="center" logo="Built by Harris Schrick using  React">
+        <FooterLinkList>
+        </FooterLinkList>
+    </FooterSection>
+</Footer>
       </div>
+
+
     )
   }
 }
