@@ -89,20 +89,23 @@ class Pipeline extends Component {
 </Card>
 </center>
 
-{/*In Progress card 1*/}
+{/*In Progress card 2*/}
 <center>
 <Card shadow={0} style={{width: '256px', height: '256px', background: '#D4AC0D', margin: 50}}>
 <CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
   <h4 style={{marginTop: '0'}}>
-  resume
+  apply for jobs
   </h4>
 </CardTitle>
 <CardActions border style={{borderColor: 'rgba(255, 255, 255, 0.2)', display: 'flex', boxSizing: 'border-box', alignItems: 'center', color: '#fff'}}>
-  <Button className="cardButton" colored style={{color: 'white', align: 'center'}}>Check my Progress</Button>
+  
   <div className="mdl-layout-spacer"></div>
 </CardActions>
 </Card>
 </center>
+
+
+
 
       </div>
       <div className="split3"><h1>Completed</h1>
