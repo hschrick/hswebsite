@@ -126,11 +126,11 @@ class Pipeline extends Component {
 <Card shadow={0} style={{width: '256px', height: '256px', background: '#3CB371'}}>
 <CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
   <h4 style={{marginTop: '0'}}>
-  Nothing yet
+  resume
   </h4>
 </CardTitle>
 <CardActions border style={{borderColor: 'rgba(255, 255, 255, 0.2)', display: 'flex', boxSizing: 'border-box', alignItems: 'center', color: '#fff'}}>
-  <Button className="cardButton" colored style={{color: 'white', align: 'center'}}>View</Button>
+  <Button href="https://github.com/hschrick/resume" className="cardButton" colored style={{color: 'white', align: 'center'}}>View</Button>
   <div className="mdl-layout-spacer"></div>
 </CardActions>
 </Card>
