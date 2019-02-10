@@ -7,16 +7,7 @@ class Pipeline extends Component {
       <div className="master-background">
   <div className="row">
       <div className="split1"><h1>Upcoming</h1>
-      {/*Upcoming card 1*/}
-      <center>
-      <Card shadow={0} style={{width: '256px', height: '256px', background: '#C0392B', margin: 50}}>
-    <CardTitle expand style={{alignItems: 'center', color: 'white', textalign: 'center'}}>
-        <h4 style={{marginTop: '0'}}>
-        prepare first youtube lecture for c++
-        </h4>
-    </CardTitle>
-    </Card>
-    </center>
+      
 
     {/*Upcoming card 2*/}
     <center>

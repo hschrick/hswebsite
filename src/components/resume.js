@@ -16,7 +16,7 @@ class Resume extends Component {
         <h2 style={{}}>Harris Schrick</h2>
         <h4 style={{color: 'grey'}}>Programmer</h4>
         <hr style={{borderTop: '3px solid #c33764', width: '50%' }}></hr>
-        <p>I am currently a senior in college at Kansas State University set to graduate in fall of 2019 under computer science in the collge of engineering.</p>
+        <p>I am currently a senior in college at Kansas State University set to graduate in fall of 2019 under computer science in the college of engineering.</p>
         <hr style={{borderTop: '3px solid #c33764', width: '50%' }}></hr>
         <h5>Address</h5>
         <p>1401 College Ave A206-A, 66502 Manhattan Kansas</p>
@@ -28,7 +28,7 @@ class Resume extends Component {
       </div>
       </Cell>
       <Cell className="Resume-right" col={8}>
-       <h2>Highschool Education Highlights 2011-2015</h2>
+       <h2>High school Education Highlights 2011-2015</h2>
        <p>- Class on Introduction to programming in Java.<br/>
           - Class on Graphic Design.<br/>
           - Class on Constitutional Law.<br/>
@@ -38,7 +38,7 @@ class Resume extends Component {
        </p>
        <h2>College Education 2015-2020</h2>
        <p>
-        Relavent Courses completed so far under bs Computer Science:<br/>
+        Relavant Courses completed so far under BS Computer Science:<br/>
         - Cis 115, Introduction to Computing Science.<br/>
         - Cis 200, Programming Fundamentals.<br/>
         - Cis 300, Data and Programming Structures.<br/>
@@ -54,10 +54,10 @@ class Resume extends Component {
         - 2011: Worked a year at Pike Nursery taking care of/managing thousands of plants and working with customers on specific plants they may want to buy;
          which made me have to grasp an extensive knowledge on plants, flowers, sod and overall how to work with a team.<br/>
         - 2014 -> 2015: Worked at Paddle Boston as a dock hand. In this postition I worked with a team of great people helping thousands of customers every single day<br/>
-          in and out of kayaks/canous. I recieved extensive safety training and worked long hours helping/working with customers and other dockhands alike.<br/>
-        -2015 -> present: Working for Kansas State Athletic Department as a maintnence worker. This job has an extensive list of skills and adapatbility that includes but is not limited to.<br/>
-         working with a large team of other workers, mowing/leveling/edging/mowing/painting fields multiple football fields wide, general car maintnence such as oil replacement<br/>
-         tire replacement, brake fixing. Other skills learned included room painting from floor to ceiling, knowledge in fertlizer, basbeball field/pitching mound maintnence/replacement.<br/>
+          in and out of kayaks/Canoes. I received extensive safety training and worked long hours helping/working with customers and other dockhands alike.<br/>
+        -2015 -> present: Working for Kansas State Athletic Department as a maintenance worker. This job has an extensive list of skills and adaptability that includes but is not limited to.<br/>
+         working with a large team of other workers, mowing/leveling/edging/painting fields multiple football fields wide, general car maintenance such as oil replacement<br/>
+         tire replacement, brake fixing. Other skills learned included room painting from floor to ceiling, knowledge in fertlizer, basbeball field/pitching mound maintenance/replacement.<br/>
          This job has been an all around great experience and was something new every day.<br/>
        </p>
       </Cell>
